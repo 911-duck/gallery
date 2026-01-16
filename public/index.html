@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="container__header">
+            <div class="container__img"></div> Галерея изображений
+        </h1>
+        <div class="container__main main">
+            <div class="main__left left">
+                <div class="left__all-events">
+
+                    <button class="left__get get">получить все изображения</button>
+                    <div class="left__events">
+                        <button class="sort">сортировать по названию</button>
+                        <button class="unsort">перемешать все изображения</button>
+                    </div>
+                </div>
+                <div class="left__add add">
+                    <h2 class="add__header">Добавить изображение</h2>
+                    <input type="text" class="name" placeholder="укажите название ...">
+                    <input type="text" class="url" placeholder="укажите ссылку на изображение ...">
+                    <button class="post">добавить</button>
+                </div>
+            </div>
+            <div class="main__right right">
+                <h2 class="right__header">изображения:</h2>
+                <div class="right__imgs"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script/main.js" type="module"></script>
+    <script src="./script/config/elements.js" type="module"></script>
+</body>
+
+</html>
