@@ -1,2 +1,7 @@
 export const BUTTON_GET = document.querySelector(".get")
+export const BUTTON_POST = document.querySelector(".post")
+export const BUTTON_SORT_AZ = document.querySelector(".sort")
+export const BUTTON_SORT_RANDOM = document.querySelector(".unsort")
+export const INPUT_NAME = document.querySelector(".name")
+export const INPUT_URL = document.querySelector(".url")
 export const CONTAINER = document.querySelector(".right__imgs")

@@ -1,8 +1,19 @@
 {
-    "IMGS":[
-        {
-            "name":"котик",
-            "url":"https://w-dog.ru/wallpapers/6/3/289737616675078/krasivyj-krasivaya-koshka-kot.jpg"
-        }
-    ]
+  "IMGS": [
+    {
+      "id": "1",
+      "name": "A",
+      "url": "https://w-dog.ru/wallpapers/6/3/289737616675078/krasivyj-krasivaya-koshka-kot.jpg"
+    },
+    {
+      "id": "2",
+      "name": "z",
+      "url": "https://funik.ru/wp-content/uploads/2018/10/cd494811d5a5edcb3159.jpg"
+    },
+    {
+      "id": "3",
+      "name": "b",
+      "url": "https://funik.ru/wp-content/uploads/2018/10/cd494811d5a5edcb3159.jpg"
+    }
+  ]
 }
